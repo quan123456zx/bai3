@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập buổi 3</title>
+</head>
+<body>
+    <h1>BÀI TẬP VỀ NHÀ</h1>
+    <h2>Câu 1: Bài tập về Iframe</h2>
+    <p><b>Yêu cầu: </b> Vào trang google map, tìm 1 địa điểm yêu thích và nhúng thẻ iframe của google map và website. Để hiển thị như sau:</p>
+    <p><b>Lưu ý: </b>Thử tự lên google tìm hiểu cách nhúng bản đồ vào website.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14901.185882034952!2d105.77937088368897!3d20.980749777483453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad90e2a1549d%3A0x29a19ed11e54f2b6!2sCIE%20PTIT!5e0!3m2!1sen!2s!4v1676973057317!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Câu 2: Bài tập về form</h2>
+    <p><b>Yêu cầu: </b>Tạo form <b>đăng ký</b> như form bên dưới. Phải có thẻ form bọc bên ngoài. Khi click vào thẻ label thì phải focus vào đúng ô input tương ứng với label đó. Các ô input phải yêu cầu nhập nội dung mới cho Đăng ký.</p>
+    <form action="https://www.w3schools.com/action_page.php" target="_self" method="post">
+        <label for="xet">Họ tên:</label><br>
+        <input id="xet" name="Họ và Tên" type="text" placeholder="Ví dụ: levana"><br>
+        <label for="xet1">Email:</label><br>
+        <input id="xet1" name="Email:" type="text" placeholder="Ví dụ: levana@gmail.com"><br>
+        <label for="xet2">Mật khẩu:</label><br>
+        <input id="xet2" name="Mật khẩu" type="posword"><br>
+        <input type="submit" value="Đăng ký"><br>
+    </form>
+    <p><b>Yêu cầu: </b>Tạo form <b>tìm kiếm </b>như dưới đây: (Phải có cả thẻ form bọc bên ngoài. Phải nhập nội dung mới cho bấm Tìm kiếm.</p>
+    <form action="https://www.w3schools.com/action_page.php" target="_self" method="post">
+        <input name="phần tử cần tìm" type="text" placeholder="Nhập nội dung tìm kiếm...">
+        <input type="submit" value="Tìm kiếm">
+    </form>
+    <h2>Câu 3: Bài tập để ôn lại kiến thức về form</h2>
+    <p><b>Yêu cầu: </b>Vẽ lại các thẻ dưới đây:</p>
+    <p>-Thẻ input: </p>
+    <form action="https://www.w3schools.com/action_page.php" target="_self" method="get">
+        <label for="xet3">Kiểu text:</label><br>
+        <input id="xet3" name="Kiểu text:" type="text" placeholder="Nhập họ tên..">
+        <br>
+        <br>
+        <label for="xet4">Kiểu email:</label><br>
+        <input id="xet4" name="Kiểu email:" type="email" placeholder="Nhập emaul">
+        <br>
+        <br>
+        <label for="xet5">Kiểu pasword:</label><br>
+        <input id="xet5" name="Kiểu password:" type="password">
+        <br>
+        <br>
+        <label for="xet6">Kiểu number:</label><br>
+        <input id="xet6" name="kiểu number" type="number">
+        <br>
+        <br>
+        <label for="xet7">Kiểu date:</label><br>
+        <input id="xet7" name="Kiểu date:" type="date">
+        <br>
+        <br>
+        <label for="xet8">Kiểu time</label><br>
+        <input id="xet8" name="Kiểu time" type="time">
+        <br>
+        <br>
+        <label for="xet9">Kiểu file:</label><br>
+        <input id="xet9" name="Choose File" type="file" placeholder="Choose File">
+        <br>
+        <br>
+        <label for="xet10">Kiểu radio:</label><br>
+        <input type="radio" id="xet10" name="Giới tính" value="NAM">
+        <label for="xet10">Nam</label><br>
+        <input type="radio" id="xet11" name="Giới tính" value="NỮ">
+        <label for="xet11">Nữ</label><br>
+        <input type="radio" id="xet12" name="Giới tính" value="KHÁC">
+        <label for="xet12">Khác</label>
+        <br>
+        <br>
+        <label for="xet13">Kiểu range:</label><br>
+        <label for="xet13">Âm lượng (min=0 và max=100):</label><br>
+        <input type="range" name="Âm lượng:" min="0" max="100")>
+        <br>
+        <br>
+        <label for="xet14">Kiểu color:</label><br>
+        <input id="xet14" name="MÀU" type="color">
+        <br>
+        <br>
+        <p><b>- Thẻ select:</b></p>
+        <label for="xet15">Chọn danh mục:</label><br>
+        <select id="xet15" name="Trang phục">
+            <option value="Quần">Quần</option>
+            <option value="Áo">Áo</option>
+            <option value="Mũ">Mũ</option>
+            <option value="Khăn">Khăn</option>
+        </select>
+        <br>
+        <p><b>- Thẻ textarea (có cols =30 và rows = 10):</b></p>
+        <textarea name="note" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
